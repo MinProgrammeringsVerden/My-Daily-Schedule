@@ -1,0 +1,20 @@
+.remove {
+    margin-right: 1rem;
+
+}
+.task-enter {
+    opacity: 0.01;
+}
+
+.task-enter-active {
+    opacity: 1;
+    transition: opacity 300ms easy-in;
+}
+.task-exit {
+    opacity: 1;
+}
+
+.task-exit-active {
+    opacity: 0.01;
+    transition: opacity 300ms easy-in;
+}
